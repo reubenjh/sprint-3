@@ -1,0 +1,3 @@
+* What happens to the layout when you resize the screen to less than 550 px. How do you think that works?
+
+The columns stack on top of eachother, each taking up 100% screen width. This is because none of the media queries' conditions are met anymore since the screen size is smaller than 550px, so their specific css rules are not active and the base css rules causing columns to have width: 100% take effect. I think.
